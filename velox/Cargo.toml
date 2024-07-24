@@ -1,0 +1,14 @@
+[package]
+name = "velox"
+version = "0.1.0"
+authors = ["Kabir Dhruw <kabirdhruw24@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+bootloader = "0.9"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
